@@ -7,7 +7,7 @@ const port = 3010;
 
 app.use(express.json());
 
-// Load data from data.json
+
 const rawData = fs.readFileSync('data.json');
 const students = JSON.parse(rawData);
 
